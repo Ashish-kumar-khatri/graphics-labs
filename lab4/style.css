@@ -1,0 +1,26 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+canvas{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.btn-group{
+    position:fixed;
+    bottom:2em;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    gap:1em;
+}
+
+.btn-group button{
+    white-space: nowrap;
+    padding : .5em 1em;
+}
